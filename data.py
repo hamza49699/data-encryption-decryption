@@ -126,7 +126,7 @@ elif choice == "Store Data":
                 save_data(stored_data)
                 st.success("✅ Data encrypted and saved.")
             else:
-                st.error("❗ All fields are required.")
+                st.error("❗ All fields are required to filled.")
     else:
         st.warning("🔐 Please login to access this section.")
 
